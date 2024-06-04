@@ -1,0 +1,20 @@
+current directory: /Users/kahnaagrawal/Desktop/hiring_tech/vendor/bundle/ruby/2.7.0/gems/strscan-3.1.0/ext/strscan
+/Users/kahnaagrawal/.rvm/rubies/ruby-2.7.5/bin/ruby extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+checking for rb_reg_onig_match() in ruby.h... no
+creating Makefile
+
+current directory: /Users/kahnaagrawal/Desktop/hiring_tech/vendor/bundle/ruby/2.7.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240604-7002-1rt8q8g sitelibdir\=./.gem.20240604-7002-1rt8q8g clean
+
+current directory: /Users/kahnaagrawal/Desktop/hiring_tech/vendor/bundle/ruby/2.7.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240604-7002-1rt8q8g sitelibdir\=./.gem.20240604-7002-1rt8q8g
+compiling strscan.c
+linking shared-object strscan.bundle
+
+current directory: /Users/kahnaagrawal/Desktop/hiring_tech/vendor/bundle/ruby/2.7.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240604-7002-1rt8q8g sitelibdir\=./.gem.20240604-7002-1rt8q8g install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 strscan.bundle ./.gem.20240604-7002-1rt8q8g
+
+current directory: /Users/kahnaagrawal/Desktop/hiring_tech/vendor/bundle/ruby/2.7.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240604-7002-1rt8q8g sitelibdir\=./.gem.20240604-7002-1rt8q8g clean

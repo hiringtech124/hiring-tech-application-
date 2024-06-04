@@ -1,0 +1,18 @@
+current directory: /Users/kahnaagrawal/Desktop/hiring_tech/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+/Users/kahnaagrawal/.rvm/rubies/ruby-2.7.5/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/kahnaagrawal/Desktop/hiring_tech/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240604-7002-1g52uix sitelibdir\=./.gem.20240604-7002-1g52uix clean
+
+current directory: /Users/kahnaagrawal/Desktop/hiring_tech/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240604-7002-1g52uix sitelibdir\=./.gem.20240604-7002-1g52uix
+compiling nkf.c
+linking shared-object nkf.bundle
+
+current directory: /Users/kahnaagrawal/Desktop/hiring_tech/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240604-7002-1g52uix sitelibdir\=./.gem.20240604-7002-1g52uix install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 nkf.bundle ./.gem.20240604-7002-1g52uix
+
+current directory: /Users/kahnaagrawal/Desktop/hiring_tech/vendor/bundle/ruby/2.7.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240604-7002-1g52uix sitelibdir\=./.gem.20240604-7002-1g52uix clean
