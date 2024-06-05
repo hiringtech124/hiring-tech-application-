@@ -12,9 +12,9 @@ const AppNavigator = ()=> {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{headerShown: false}} >
-      <Stack.Screen name="Countryname" component={Countryname} />
       <Stack.Screen name="Signup" component={Signup} />
      <Stack.Screen name="Login" component={Login} />
+     <Stack.Screen name="Countryname" component={Countryname} />
        
       </Stack.Navigator>
     </NavigationContainer>

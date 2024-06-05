@@ -95,6 +95,25 @@
                     }
                 },
                 {
+                    "source": "/Users/kahnaagrawal/Desktop/git-hiring/hiring-tech-application-/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "267"
+                    },
+                    "to": {
+                        "startLines": "1703",
+                        "startColumns": "4",
+                        "startOffsets": "117099",
+                        "endLines": "1706",
+                        "endColumns": "12",
+                        "endOffsets": "117277"
+                    }
+                },
+                {
                     "source": "/Users/kahnaagrawal/.gradle/caches/transforms-4/c7f02110e9970d489937636b78068a94/transformed/cardview-1.0.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,35,36,37,38,45,47,50,7",
@@ -111,6 +130,23 @@
                         "endLines": "24,500,501,502,503,814,815,816,1734,4735,4738,4741,9055",
                         "endColumns": "51,60,61,61,63,58,56,53,12,12,12,12,24",
                         "endOffsets": "1181,25663,25725,25787,25851,47651,47708,47762,119142,321416,321542,321670,573833"
+                    }
+                },
+                {
+                    "source": "/Users/kahnaagrawal/Desktop/git-hiring/hiring-tech-application-/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "154",
+                        "endColumns": "63",
+                        "endOffsets": "213"
+                    },
+                    "to": {
+                        "startLines": "1498",
+                        "startColumns": "4",
+                        "startOffsets": "92378",
+                        "endColumns": "63",
+                        "endOffsets": "92437"
                     }
                 },
                 {
@@ -169,6 +205,23 @@
                     }
                 },
                 {
+                    "source": "/Users/kahnaagrawal/Desktop/git-hiring/hiring-tech-application-/android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "48",
+                        "endOffsets": "60"
+                    },
+                    "to": {
+                        "startLines": "1534",
+                        "startColumns": "4",
+                        "startOffsets": "94955",
+                        "endColumns": "48",
+                        "endOffsets": "94999"
+                    }
+                },
+                {
                     "source": "/Users/kahnaagrawal/.gradle/caches/transforms-4/7471c07849b2dd8e9c82ad9a39477cc5/transformed/jetified-drawee-3.1.3/res/values/values.xml",
                     "from": {
                         "startLines": "2,136",
@@ -185,23 +238,6 @@
                         "endLines": "9792,10721",
                         "endColumns": "22,22",
                         "endOffsets": "612795,650696"
-                    }
-                },
-                {
-                    "source": "/Users/kahnaagrawal/Desktop/hiring_tech/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
-                    "from": {
-                        "startLines": "6",
-                        "startColumns": "4",
-                        "startOffsets": "154",
-                        "endColumns": "63",
-                        "endOffsets": "213"
-                    },
-                    "to": {
-                        "startLines": "1498",
-                        "startColumns": "4",
-                        "startOffsets": "92378",
-                        "endColumns": "63",
-                        "endOffsets": "92437"
                     }
                 },
                 {
@@ -334,23 +370,6 @@
                     }
                 },
                 {
-                    "source": "/Users/kahnaagrawal/Desktop/hiring_tech/android/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "48",
-                        "endOffsets": "60"
-                    },
-                    "to": {
-                        "startLines": "1534",
-                        "startColumns": "4",
-                        "startOffsets": "94955",
-                        "endColumns": "48",
-                        "endOffsets": "94999"
-                    }
-                },
-                {
                     "source": "/Users/kahnaagrawal/.gradle/caches/transforms-4/cfd89dec3fe56ebab01682e81f0928e3/transformed/lifecycle-viewmodel-2.5.1/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -422,25 +441,6 @@
                         "endLines": "71,8106,9408,9492",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "3757,541102,598252,602768"
-                    }
-                },
-                {
-                    "source": "/Users/kahnaagrawal/Desktop/hiring_tech/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "267"
-                    },
-                    "to": {
-                        "startLines": "1703",
-                        "startColumns": "4",
-                        "startOffsets": "117099",
-                        "endLines": "1706",
-                        "endColumns": "12",
-                        "endOffsets": "117277"
                     }
                 }
             ]

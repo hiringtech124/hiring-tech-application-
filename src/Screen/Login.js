@@ -54,7 +54,11 @@ const Login = () =>{
             </View>
 
             <View style={[styles.buttonViewStyle]}>
-                <TouchableOpacity style={[styles.buttonStyle]}>
+                <TouchableOpacity style={[styles.buttonStyle]}
+                onPress={()=>{
+                    navigation.navigate("Countryname")
+                }}
+                >
                     <Text style={[styles.buttonTextStyle]}>
                     Login
                     </Text>
