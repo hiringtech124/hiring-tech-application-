@@ -5,6 +5,8 @@ const Signup = () =>{
     
     const [Email,setEmail] = useState("")
     const [Password,setPassword] = useState("")
+    const [isVisiblejob,setIsVisibleJob] = useState(true)
+    const [isVisibleHire,setIsVisibleHire] = useState(false)
     const navigation = useNavigation()
 
     return(
@@ -17,6 +19,59 @@ const Signup = () =>{
             <Text style={[styles.headerSecondText]}>
             Hiring Tech
             </Text>
+            </View>
+            <View style={{
+                flexDirection:'row',
+                alignItems:'center',
+                justifyContent:'space-between',
+                marginHorizontal:20,
+                marginTop:20
+                
+            }}>
+                <TouchableOpacity
+                style={{
+                    height:56,
+                    backgroundColor:isVisiblejob?'#000959':"#ffffff",
+                    borderRadius:16,
+                    alignItems:'center',
+                    justifyContent:'center',
+                    width:166
+                }}
+                onPress={()=>{
+                    setIsVisibleJob(false)
+                    setIsVisibleHire(true)
+                }}
+                >
+                    <Text style={{
+                        fontSize:16,
+                        fontWeight:'600',
+                        color:isVisiblejob?'#C1E0FB':"#000959"
+                    }}>
+                    Find A Job
+                    </Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                style={{
+                    height:56,
+                    backgroundColor:isVisibleHire?'#000959':"#ffffff",
+                    borderRadius:16,
+                    alignItems:'center',
+                    justifyContent:'center',
+                    width:166
+                }}
+                onPress={()=>{
+                    setIsVisibleJob(true)
+                    setIsVisibleHire(false)
+                }}
+                >
+                    <Text style={{
+                        fontSize:16,
+                        fontWeight:'600',
+                        color:isVisibleHire?'#C1E0FB':"#000959"
+                    }}>
+                    Hire An Employe
+                    </Text>
+                </TouchableOpacity>
             </View>
 
             <View style={[styles.emailInputViewStyle]}>
@@ -110,7 +165,7 @@ const styles = StyleSheet.create({
         color:'#0038FF'
     },
     emailInputViewStyle:{
-        marginTop:80,
+        marginTop:50,
         marginHorizontal:20,
 
     },
@@ -138,7 +193,7 @@ const styles = StyleSheet.create({
         resizeMode:'contain'
     },
     rememberTextStyle:{
-        fontSize:24,
+        fontSize:14,
         fontWeight:'400',
         color:'#000000',
         marginLeft:5

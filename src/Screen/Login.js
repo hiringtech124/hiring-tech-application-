@@ -145,7 +145,7 @@ const styles = StyleSheet.create({
         resizeMode:'contain'
     },
     rememberTextStyle:{
-        fontSize:24,
+        fontSize:14,
         fontWeight:'400',
         color:'#000000',
         marginLeft:5
