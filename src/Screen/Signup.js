@@ -1,6 +1,6 @@
 import { useNavigation } from "@react-navigation/native";
 import React,{useState} from "react";
-import {View,Text,StyleSheet,TextInput, Image,TouchableOpacity} from "react-native"
+import {View,Text,StyleSheet,TextInput, Image,TouchableOpacity,ScrollView} from "react-native"
 const Signup = () =>{
     
     const [Email,setEmail] = useState("")
@@ -11,6 +11,9 @@ const Signup = () =>{
 
     return(
         <View style={[styles.container]} >
+            <ScrollView>
+
+           
 
             <View style={[styles.headerViewStyle]}>
             <Text style={[styles.headerFirstText]}>
@@ -31,21 +34,20 @@ const Signup = () =>{
                 <TouchableOpacity
                 style={{
                     height:56,
-                    backgroundColor:isVisiblejob?'#000959':"#ffffff",
+                    backgroundColor:'#000959',
                     borderRadius:16,
                     alignItems:'center',
                     justifyContent:'center',
                     width:166
                 }}
                 onPress={()=>{
-                    setIsVisibleJob(false)
-                    setIsVisibleHire(true)
+                    navigation.navigate("HrRegistration")
                 }}
                 >
                     <Text style={{
                         fontSize:16,
                         fontWeight:'600',
-                        color:isVisiblejob?'#C1E0FB':"#000959"
+                        color:'#C1E0FB',
                     }}>
                     Find A Job
                     </Text>
@@ -53,21 +55,21 @@ const Signup = () =>{
                 <TouchableOpacity
                 style={{
                     height:56,
-                    backgroundColor:isVisibleHire?'#000959':"#ffffff",
+                    backgroundColor:'#000959',
                     borderRadius:16,
                     alignItems:'center',
                     justifyContent:'center',
                     width:166
                 }}
                 onPress={()=>{
-                    setIsVisibleJob(true)
-                    setIsVisibleHire(false)
+                    navigation.navigate("CandidateRegistration")
                 }}
+              
                 >
                     <Text style={{
                         fontSize:16,
                         fontWeight:'600',
-                        color:isVisibleHire?'#C1E0FB':"#000959"
+                        color:'#C1E0FB'
                     }}>
                     Hire An Employe
                     </Text>
@@ -132,6 +134,61 @@ const Signup = () =>{
                 </View>
                 
             </View>
+            <TouchableOpacity
+           style={{
+            height:40,
+            marginHorizontal:20,
+            backgroundColor:'#C7C7C7',
+            justifyContent:'center',
+            alignItems:'center',
+            borderRadius:30,
+            borderWidth:1,
+            borderColor:'#000000',
+            marginTop:50
+           }}
+           >
+            <Text style={{
+                fontSize:15,
+                fontWeight:'500',
+                color:'#000000'
+            }}>
+          Register and unlock jobs
+            </Text>
+           </TouchableOpacity>
+           <View style={{
+            height:40,
+            marginHorizontal:20,
+            backgroundColor:'#C7C7C7',
+            justifyContent:'center',
+            alignItems:'center',
+            borderRadius:30,
+            borderWidth:1,
+            borderColor:'#000000',
+            marginTop:20,
+            flexDirection:'row'
+           }}>
+            <Image
+            source={require("../Assets/Icon.png")}
+            style={{
+                width:24,
+                height:20,
+                marginRight:6
+            }}
+            />
+              <TouchableOpacity
+           style={{
+            
+           }}
+           >
+            <Text style={{
+                fontSize:15,
+                fontWeight:'500',
+                color:'#000000'
+            }}>
+         Continue with Google
+            </Text>
+           </TouchableOpacity>
+           </View>
 
             <View style={[styles.signupViewStyle]}>
                 <Text style={[styles.alreadyTextStyle]}>
@@ -141,7 +198,7 @@ const Signup = () =>{
                 Sign Up
                 </Text>
             </View>
-            
+            </ScrollView>
         </View>
     )
 }
@@ -232,8 +289,9 @@ const styles = StyleSheet.create({
         resizeMode:'contain'
     },
     signupViewStyle:{
-        marginTop:60,
-        alignItems:'center'
+        marginTop:40,
+        alignItems:'center',
+        marginBottom:20
     },
     alreadyTextStyle:{
         fontSize:16,
