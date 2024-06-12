@@ -384,6 +384,9 @@ const HrRegistration = () =>{
             borderColor:'#000000',
             marginTop:20
            }}
+           onPress={()=>{
+            navigation.navigate("Interest")
+           }}
            >
             <Text style={{
                 fontSize:15,
@@ -411,7 +414,7 @@ const HrRegistration = () =>{
             </Text>
             <TouchableOpacity
             onPress={()=>{
-                navigation.navigate("Signup")
+                navigation.navigate("Signup",{item:2})
             }}
             >
             <Text style={{

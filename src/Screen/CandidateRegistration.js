@@ -247,6 +247,9 @@ const CandidateRegistration = () =>{
             borderColor:'#000000',
             marginTop:50
            }}
+           onPress={()=>{
+            navigation.navigate("Interest")
+           }}
            >
             <Text style={{
                 fontSize:15,
@@ -308,7 +311,7 @@ const CandidateRegistration = () =>{
             </Text>
             <TouchableOpacity
             onPress={()=>{
-                navigation.navigate("Signup")
+                navigation.navigate("Signup",{item:1})
             }}
             >
             <Text style={{
