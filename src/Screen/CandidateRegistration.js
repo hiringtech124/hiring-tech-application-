@@ -248,7 +248,7 @@ const CandidateRegistration = () =>{
             marginTop:50
            }}
            onPress={()=>{
-            navigation.navigate("Interest")
+            navigation.navigate("Preferences")
            }}
            >
             <Text style={{

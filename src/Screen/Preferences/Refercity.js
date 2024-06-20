@@ -151,7 +151,7 @@ const Refercity = () =>{
                     fontWeight:'600',
                     color:'#A2CEF4'
                 }}>
-                  Next
+                  Save
                 </Text>
             </TouchableOpacity>
         </View>
