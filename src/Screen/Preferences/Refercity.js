@@ -142,7 +142,7 @@ const Refercity = () =>{
                 borderRadius:16,
             }}
             onPress={()=>{
-                navigation.navigate("Jobtype")
+                navigation.navigate("Preferences")
             }}
 
             >

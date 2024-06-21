@@ -25,8 +25,7 @@ const AppNavigator = ()=> {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{headerShown: false}} >
-      <Stack.Screen name="SetupResume" component={SetupResume} />
-      <Stack.Screen name="ChandidateProfile" component={ChandidateProfile} />
+     
       <Stack.Screen name="Choosejob" component={Choosejob} />
       <Stack.Screen name="Jobtype" component={Jobtype} />
       <Stack.Screen name="Preferences" component={Preferences} />
@@ -39,7 +38,8 @@ const AppNavigator = ()=> {
      <Stack.Screen name="Login" component={Login} />
     
      <Stack.Screen name="Countryname" component={Countryname} />
-   
+     <Stack.Screen name="SetupResume" component={SetupResume} />
+      <Stack.Screen name="ChandidateProfile" component={ChandidateProfile} />
       </Stack.Navigator>
     </NavigationContainer>
   );
