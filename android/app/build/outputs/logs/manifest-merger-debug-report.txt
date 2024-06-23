@@ -5,6 +5,8 @@ MERGED from /Users/kahnaagrawal/Desktop/git-hiring/hiring-tech-application-/andr
 INJECTED from /Users/kahnaagrawal/Desktop/git-hiring/hiring-tech-application-/android/app/src/debug/AndroidManifest.xml:2:1-9:12
 INJECTED from /Users/kahnaagrawal/Desktop/git-hiring/hiring-tech-application-/android/app/src/debug/AndroidManifest.xml:2:1-9:12
 INJECTED from /Users/kahnaagrawal/Desktop/git-hiring/hiring-tech-application-/android/app/src/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] /Users/kahnaagrawal/Desktop/git-hiring/hiring-tech-application-/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-reanimated] /Users/kahnaagrawal/Desktop/git-hiring/hiring-tech-application-/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-safe-area-context] /Users/kahnaagrawal/Desktop/git-hiring/hiring-tech-application-/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-screens] /Users/kahnaagrawal/Desktop/git-hiring/hiring-tech-application-/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.react:react-android:0.74.1] /Users/kahnaagrawal/.gradle/caches/transforms-4/441abbc29e7844d504dda1a0ffede014/transformed/jetified-react-android-0.74.1-debug/AndroidManifest.xml:2:1-24:12
@@ -161,6 +163,10 @@ uses-sdk
 INJECTED from /Users/kahnaagrawal/Desktop/git-hiring/hiring-tech-application-/android/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/kahnaagrawal/Desktop/git-hiring/hiring-tech-application-/android/app/src/debug/AndroidManifest.xml
 INJECTED from /Users/kahnaagrawal/Desktop/git-hiring/hiring-tech-application-/android/app/src/debug/AndroidManifest.xml
+MERGED from [:react-native-gesture-handler] /Users/kahnaagrawal/Desktop/git-hiring/hiring-tech-application-/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-gesture-handler] /Users/kahnaagrawal/Desktop/git-hiring/hiring-tech-application-/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-reanimated] /Users/kahnaagrawal/Desktop/git-hiring/hiring-tech-application-/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-reanimated] /Users/kahnaagrawal/Desktop/git-hiring/hiring-tech-application-/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-safe-area-context] /Users/kahnaagrawal/Desktop/git-hiring/hiring-tech-application-/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-safe-area-context] /Users/kahnaagrawal/Desktop/git-hiring/hiring-tech-application-/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-screens] /Users/kahnaagrawal/Desktop/git-hiring/hiring-tech-application-/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44

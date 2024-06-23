@@ -93,6 +93,9 @@ const Signup = ({route}) =>{
             borderColor:'#000000',
             marginTop:50
            }}
+           onPress={()=>{
+            navigation.navigate("Otp")
+        }}
            >
             <Text style={{
                 fontSize:15,
