@@ -69,6 +69,17 @@ const Signup = ({route}) =>{
 
                 />
             </View>
+            <TouchableOpacity style={{
+                alignItems:'flex-end',
+                marginHorizontal:24,
+                marginTop:10
+            }}
+            onPress={()=>{
+                navigation.navigate("ForgotPassword")
+            }}
+            >
+                <Text>Forget Password</Text>
+            </TouchableOpacity>
 
             <View style={[styles.rememberViewStyle]}>
                 <Image
@@ -91,7 +102,7 @@ const Signup = ({route}) =>{
             borderRadius:30,
             borderWidth:1,
             borderColor:'#000000',
-            marginTop:50
+            marginTop:40
            }}
            onPress={()=>{
             navigation.navigate("Otp")

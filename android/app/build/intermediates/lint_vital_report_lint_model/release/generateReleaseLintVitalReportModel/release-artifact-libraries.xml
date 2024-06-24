@@ -480,6 +480,12 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name=":@@:react-native-gesture-handler::release"
+      project=":react-native-gesture-handler"/>
+  <library
+      name=":@@:react-native-reanimated::release"
+      project=":react-native-reanimated"/>
+  <library
       name=":@@:react-native-safe-area-context::release"
       project=":react-native-safe-area-context"/>
   <library

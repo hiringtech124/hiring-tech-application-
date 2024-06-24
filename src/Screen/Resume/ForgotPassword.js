@@ -1,4 +1,5 @@
 // App.js
+import { useNavigation } from '@react-navigation/native';
 import React, { useState } from 'react';
 import { SafeAreaView, StyleSheet, Text, TextInput, View, Button, Alert,TouchableOpacity,Image } from 'react-native';
 
@@ -6,8 +7,9 @@ const ForgotPassword = () => {
   const [currentPassword, setCurrentPassword] = useState('');
   const [newPassword, setNewPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
-
+  const navigation = useNavigation()
   const handlePasswordChange = () => {
+    
     if (newPassword !== confirmPassword) {
       Alert.alert('Error', 'New password and confirm password do not match');
       return;
@@ -29,9 +31,16 @@ const ForgotPassword = () => {
                 flexDirection:'row',
                 alignItems:'center'
             }}>
-                <Image
+              <TouchableOpacity
+              onPress={()=>{
+                navigation.goBack();
+              }}
+              >
+              <Image
                 source={require("../../Assets/arrow-left.png")}
                 />
+              </TouchableOpacity>
+                
                   <Text style={{
                 fontSize:25,
                 fontWeight:'500',
@@ -51,7 +60,7 @@ const ForgotPassword = () => {
            }}>
        
                 <Image 
-                source={require("../../Assets/notification.png")}
+                source={require("../../Assets/dashboard/bellIcon.png")}
                 style={{
                     width:25,
                     height:25,
@@ -59,7 +68,7 @@ const ForgotPassword = () => {
                 }}
                 />
                 <Image 
-                source={require("../../Assets/tv.png")}
+                source={require("../../Assets/dashboard/Profile.png")}
                 style={{
                     width:30,
                     height:30,

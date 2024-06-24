@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module version="4">
   <component name="AdditionalModuleElements">
-    <content url="file://$USER_HOME$/.gradle/caches/transforms-4/441abbc29e7844d504dda1a0ffede014/transformed/jetified-react-android-0.74.1-debug/prefab/modules/jsi/include">
-      <sourceFolder url="file://$USER_HOME$/.gradle/caches/transforms-4/441abbc29e7844d504dda1a0ffede014/transformed/jetified-react-android-0.74.1-debug/prefab/modules/jsi/include" type="native-header-root" />
+    <content url="file://$USER_HOME$/.gradle/caches/transforms-4/5424987d23b43daff899e06d9c5d7ba9/transformed/jetified-react-android-0.74.1-release/prefab/modules/jsi/include">
+      <sourceFolder url="file://$USER_HOME$/.gradle/caches/transforms-4/5424987d23b43daff899e06d9c5d7ba9/transformed/jetified-react-android-0.74.1-release/prefab/modules/jsi/include" type="native-header-root" />
     </content>
     <content url="file://$MODULE_DIR$/../../../../node_modules/react-native-screens/cpp">
       <sourceFolder url="file://$MODULE_DIR$/../../../../node_modules/react-native-screens/cpp" type="native-Source-root" />

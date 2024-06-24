@@ -490,6 +490,32 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name=":@@:react-native-gesture-handler::release"
+      jars="/Users/kahnaagrawal/.gradle/caches/transforms-4/ac92664d9cff468f8d6e7474540ec562/transformed/out/jars/classes.jar:/Users/kahnaagrawal/.gradle/caches/transforms-4/ac92664d9cff468f8d6e7474540ec562/transformed/out/jars/libs/R.jar"
+      resolved="hiring_tech:react-native-gesture-handler:unspecified"
+      folder="/Users/kahnaagrawal/.gradle/caches/transforms-4/ac92664d9cff468f8d6e7474540ec562/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name=":@@:react-native-reanimated::release"
+      jars="/Users/kahnaagrawal/.gradle/caches/transforms-4/ea935570c118addcd9c9f642864db78c/transformed/out/jars/classes.jar:/Users/kahnaagrawal/.gradle/caches/transforms-4/ea935570c118addcd9c9f642864db78c/transformed/out/jars/libs/R.jar"
+      resolved="hiring_tech:react-native-reanimated:unspecified"
+      folder="/Users/kahnaagrawal/.gradle/caches/transforms-4/ea935570c118addcd9c9f642864db78c/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name=":@@:react-native-safe-area-context::release"
       jars="/Users/kahnaagrawal/.gradle/caches/transforms-4/1ebbe382e0c6401235ab744746fa4e90/transformed/out/jars/classes.jar:/Users/kahnaagrawal/.gradle/caches/transforms-4/1ebbe382e0c6401235ab744746fa4e90/transformed/out/jars/libs/R.jar"
       resolved="hiring_tech:react-native-safe-area-context:unspecified"
